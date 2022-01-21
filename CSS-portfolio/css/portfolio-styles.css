@@ -1,0 +1,91 @@
+/* Steve Girlock - WEB210 */
+
+/* 
+#D294FF - lt purple
+#B06CE0 - md purple
+#6E3894 - dk purple
+#AEC217 - dk green
+#CEDE57 - lt green
+*/
+
+/* Color variables */
+
+:root {
+    --ltpurple: #D294FF;
+    --mdpurple: #B06CE0;
+    --dkpurple: #6E3894;
+    --ltgreen: #CEDE57 ;
+    --dkgreen: #AEC217;
+  }
+
+/* Global styles
+-------------------------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: var(--dkpurple);
+}
+
+img {
+    width: 300px;
+    border-radius: 5px;
+}
+a {
+    color: var(--dkpurple);
+}
+a:hover {
+    color: var(--ltpurple);
+    text-decoration: none;
+}
+
+/* Profile
+-------------------------------------------- */
+header {
+    background-color:var(--dkgreen);
+}
+
+/* Projects
+-------------------------------------------- */
+.projects {
+    background-color: var(--dkpurple);
+    color: var(--ltgreen);
+}
+.projects a {
+   color: var(--ltgreen);
+}
+.projects a:hover {
+    color: var(--dkgreen);
+    text-decoration: none;
+ }
+.projects .btn {
+    color: var(--ltgreen);
+    text-decoration: none;
+    padding: .25em;
+}
+.projects .btn:hover {
+    color: var(--dkgreen);
+    background-color: white;
+    text-decoration: none;
+    padding: .25em;
+    border-radius: 10px;
+}
+
+/* Experience
+-------------------------------------------- */
+.experience {
+    background-color: var(--dkgreen);
+}
+
+/* Education
+-------------------------------------------- */
+.education {
+    background-color: var(--dkpurple);
+    color: var(--ltgreen);
+}
+
+/* Contact
+-------------------------------------------- */
+footer {
+    background-color: var(--dkgreen);
+}
