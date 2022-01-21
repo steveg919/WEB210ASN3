@@ -25,6 +25,8 @@ html {
 }
 body {
     color: var(--dkpurple);
+    margin: 0;
+    text-align: center;
 }
 
 img {
@@ -43,6 +45,8 @@ a:hover {
 -------------------------------------------- */
 header {
     background-color:var(--dkgreen);
+    height: 30vh;
+    padding: 2em;
 }
 
 /* Projects
@@ -50,6 +54,8 @@ header {
 .projects {
     background-color: var(--dkpurple);
     color: var(--ltgreen);
+    height: 50vh;
+    padding: 2em;
 }
 .projects a {
    color: var(--ltgreen);
@@ -75,6 +81,8 @@ header {
 -------------------------------------------- */
 .experience {
     background-color: var(--dkgreen);
+    height: 50vh;
+    padding: 2em;
 }
 
 /* Education
@@ -82,10 +90,18 @@ header {
 .education {
     background-color: var(--dkpurple);
     color: var(--ltgreen);
+    height: 50vh;
+    padding: 2em;
 }
 
 /* Contact
 -------------------------------------------- */
 footer {
     background-color: var(--dkgreen);
+    height: 30vh;
+    padding: 2em;
+}
+footer ul {
+    list-style-type: none;
+    display: inline;
 }
